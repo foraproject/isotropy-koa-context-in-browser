@@ -1,7 +1,7 @@
 {
     "author": "Jeswin Kumar <jeswinpk@agilehead.com>",
     "name": "isotropy-koa-context-in-browser",
-    "version": "0.1.2",
+    "version": "0.2.0",
     "description": " Isotropy http objects for getting Koa to work in the client.",
     "repository": {
         "type": "git",
@@ -10,7 +10,8 @@
     "main": "lib/isotropy-koa-context-in-browser",
     "dependencies": {
         "delegates": "0.1.0",
-        "parseurl": "^1.3.0"
+        "parseurl": "^1.3.0",
+        "isotropy-request-response-in-browser": "*"
     },
     "devDependencies": {},
     "engines": { "node": ">= 0.11.9" },
